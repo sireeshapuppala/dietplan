@@ -1,6 +1,6 @@
 let express =  require("express"); // get express
 const { HfInference } = require('@huggingface/inference');
-const hf = new HfInference('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');
+const hf = new HfInference('<api key here>');
 
 let app = express(); // instance of express
 
